@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.header-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.header-links .icon {
+    width: 24px; 
+    height: 24px; 
+    border-radius: 50%;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.logo {
+    width: 272px; 
+    margin-bottom: 20px; 
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-container {
+    position: relative; /* Permet le positionnement absolu des éléments enfants */
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    width: 24px; 
+    height: 24px; 
+    margin-right: 10px; 
+}
+
+.right-icons {
+    position: absolute; /* Positionne les logos par rapport au conteneur parent */
+    right: 10px; /* Espace à droite */
+    display: flex; 
+    align-items: center; 
+}
+
+.right-icons .icon {
+    width: 24px; /* Ajuste la taille selon tes besoins */
+    height: 24px; /* Ajuste la taille selon tes besoins */
+    margin-left: 5px;
+}
+
+.search-input {
+    width: 584px; 
+    padding: 14px 20px; 
+    border: 1px solid #dcdcdc; 
+    border-radius: 24px; 
+    outline: none; 
+    font-size: 16px; 
+    padding-right: 50px; /* Espace pour les logos */
+
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    margin: 0 6px;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-button:hover {
+    background-color: #f1f1f1;
+}
+
+.language {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.language a {
+    color: #1a0dab; 
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.language a:hover {
+    text-decoration: underline; 
+}
+
+.footer {
+    background-color: #4e4b4b0a; 
+    padding: 1px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-top {
+    text-align: left; 
+    padding: 15px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px;
+}
+
+.left-links, .right-links {
+    display: flex;
+    gap: 10px; 
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc; 
+    margin: 10px 0;
+}
+
+.footer a {
+    margin: 5px 0; 
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
